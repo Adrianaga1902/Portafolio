@@ -1,0 +1,358 @@
+body{
+  margin: 8%  0%;
+}
+nav{
+  text-align: right;
+  width: 1349px;
+  margin-left: -80px;
+}
+nav > a{
+  margin: 35px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+.Menu{
+  display: none;
+}
+.parte2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px 30px 70px 90px;
+  
+}
+.parr1{
+  width: 940px;
+  font-style: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1{
+  font-size: 80px;
+  margin: 10px 0px;
+}
+h2{
+  font-size: 40px;
+  font-weight: 600;
+}
+.parr1 > p{
+  font-size: 24px;
+  color: #423f40;
+}
+.mobil{
+  display: none;
+}
+.parte2 > img{
+  width: 485px;
+  height: 448px;
+  margin-right: 90px;
+}
+
+.redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  height: 50px;
+}
+.red{
+  display: flex;
+  justify-items: center;
+  background-color: #8e7bef;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+  padding: 10px;
+}
+.contacto{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 300px;
+  background-color: #8e7bef;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.contacto > img{
+  margin-right: 15px;
+  width: 15px;
+}
+.contacto > p{
+  color: white;
+}
+.expe{
+  display: flex;
+  flex-direction: row;
+  background-color: #fcda68;
+  margin-right: 35px;
+  height: 300px;
+  width: 1349px;
+
+}
+.expe2{
+  display: inline;
+  width: 740px;
+}
+.expe2 h2{
+  margin-left: 90px;
+  width: 300px;
+  height: 100px;
+}
+.expe2 p{
+  margin-left: 90px;
+}
+.expe1{
+  display: flex;
+  flex-direction: row;
+  width: 609px;
+  justify-content:start;
+  margin-top: 30px;
+}
+.tab2{
+  width: 75%;
+  height: 100%;
+}
+.tab2 p{
+  margin: 5px 0px;
+}
+.no{
+  visibility: hidden;
+}
+.tab1{
+  width: 25%;
+  height: 100%;
+}
+.tab{
+  width: 150px;
+  border-bottom: solid 2px #423f40;
+  margin-right: 0px;
+  padding: 5px 0px;
+  height: 40px;
+}
+.filas{
+  width: 100%;
+  color: #423f40;
+}
+.colum{
+  width: 350px;
+}
+.colum p{
+  color: #423f40;
+}
+.habilidades{
+  background-color: #fcda68;
+  margin-right: 35px;
+  height: 220px;
+  width: 1349px;
+}
+.hab{
+  margin-left: 90px;
+  height: 40px;
+  margin-top: 0px;
+  
+}
+.pict{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 160px;
+}
+.descri{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 120px;
+  height: 160px;
+  margin-right: 70px;
+}
+.descri img{
+  width: 60px;
+  height: 60px;
+}
+
+.imagen{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-left: 90px;
+}
+.port{
+  margin-left: 90px;
+}
+.grand{
+  width: 374px;
+  height: 279px;
+  padding: 13px 0px;
+}
+.imgpor p{
+  margin-left: 13px;
+  color: #8e7bef;
+  font-weight: 600;
+}
+.conta{
+  margin-left: 90px;
+}
+.phone{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  height: 200px;
+  width: 500px;
+  margin-left: 420px;
+  
+}
+.phone img{
+  background-color: #f9f5f2;
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+  border-radius: 25px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width: 50%;
+}
+.info p{
+  font-weight: 600;
+}
+
+footer{
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 40px;
+}
+@media (max-width: 320px){
+  nav{
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  nav > a{
+    margin: 10px 8px;
+    margin-right: 20px;
+    display: none;
+  }
+  .Menu{
+    display:flex;
+    justify-content: flex-end;
+  }
+  .Menu img{
+    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+  }
+  .parte2{
+    margin: 0px;
+  }
+  .parr1 h1{
+    width: 320px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .parr1 {
+    display: flex;
+    align-items: center;
+  }
+  .parr1 p{
+    text-align: center;
+  }
+  .redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 320px;
+    height: 50px;
+  }
+  .expe{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 300px;
+    padding-left: 20px;
+    margin-right: 0px;
+  }
+  .expe1{
+    width: 320px;
+    font-weight: 600;
+  }
+  .colum{
+    width: 210px;
+  }
+  .expe2{
+    display: flex;
+    flex-direction: column;
+  }
+  .mobil{
+    display: block;
+    padding: 30px;
+    width: 260px;
+    height: 260px;
+  }
+  .contacto{
+    margin: 0px 0px 30px 0px;
+    width: 260px;
+  }
+  .expe2 h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left;
+  }
+  .expe2 p{
+    margin: 0px;
+    text-align: left;
+    width: 320px;
+  }
+  .habilidades{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 320px;
+    padding-top: 30px;
+  }
+  .hab{
+    text-align: left;
+    margin-left: 20px;
+  }
+  .pict{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .imagen{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .port{
+    margin-left: 0px;
+    text-align: center;
+  }
+  .conta{
+    width: 320px;
+    margin-left: 0px;
+  }
+  .phone{
+    width: 320px;
+    margin-left: 0px;
+  }
+  footer{
+    width: 320px;
+  }
+  .imgpor img{
+    width: 300px;
+  }
+  .parte2 > img{
+    display: none;
+  }
+  .descri{
+    width: 320px;
+  }
+}
